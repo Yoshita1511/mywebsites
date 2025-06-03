@@ -36,25 +36,25 @@ function setBackground(weather){
 	let gradient;
 	switch(weather.toLowerCase()){
 		case 'clear':
-			videosrc = 'videos/sunny.mp4';
+			videosrc = 'sunny-2_PXyDE5gj.mp4';
 			break;
 		case 'clouds':
-			videosrc = 'videos/cloudy.mp4';
+			videosrc = 'cloudy.mp4';
 			break;
 		case 'drizzle':
 		case 'rain':
-			videosrc = 'videos/rainy.mp4';
+			videosrc = 'rainy.mp4';
 			break;
 		case 'thunderstorm':
-			videosrc = 'videos/thunder.mp4';
+			videosrc = 'thunder.mp4';
 			break;
 		case 'snow':
-			videosrc = 'videos/snow.mp4';
+			videosrc = 'snow.mp4';
 			break;
 		case 'mist':
 		case 'haze':
 		case 'fog':
-			videosrc = 'videos/fog.mp4';
+			videosrc = 'fog_Ijct6rY7.mp4';
 			break;
 		default:
 			gradient = 'linear-gradient(to right, #4CAF50, #2196F3)';

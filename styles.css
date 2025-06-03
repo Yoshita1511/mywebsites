@@ -6,6 +6,7 @@ body{
 	align-items: center;
 	height: 100vh;
 	background: linear-gradient(to right, #4CAF50, #2196F3);
+	transition: background 0.8s ease-in-out;
 }
 .container{
 	text-align: center;
